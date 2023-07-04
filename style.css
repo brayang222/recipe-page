@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media (max-width: 678px) {
+  .main {
+    width: 95%;
+  }
+}
+
+.welcome h1 {
+  margin-top: 40px;
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+}
+
+.welcome p {
+  margin: 20px 0 35px 0;
+  max-width: 65ch;
+  font-size: 14px;
+  line-height: 17px;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(88, 87, 87);
+}
+
+@media (max-width: 678px) {
+  .welcome h1 {
+    font-size: 24px;
+  }
+  .welcome p {
+    font-size: 12px;
+  }
+}
+
+.image-chessecake {
+  width: 100%;
+}
+
+.image-chessecake img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+
+}
+
+.nosexd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 220px;
+  max-height: 370px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.yields, .prep-time, .cook-time, .total {
+  gap: 10px;
+  width: 120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.fa-utensils, .fa-clock {
+  font-size: 25px;
+}
+
+@media (max-width: 678px) {
+  .nosexd{
+    display: inline-block;
+    margin: 0 0 20px 0;
+    box-shadow: none;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .recipe{
+    flex-direction: row;
+  }
+}
+
+.container-text {
+  width: 100%;
+
+}
+
+.ingredients {
+  width: 100%;
+}
+
+.ingredients p {
+  margin: 30px 0;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.ingredients h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.instructions {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.title-inst{
+  margin: 40px 0;
+}
+
+.puntos-inst span {
+  position: absolute;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:36px;
+  height:36px;
+  border-radius:10px;
+  background-color:#F2994A;
+  color:#fff;
+}
+
+
+.puntos-inst {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.puntos-inst p {
+  position: relative;
+  padding-left: 40px;
+  margin: 0 10px;
+  max-width: 40ch;
+}
+
+.orange {
+  color: #F2994A;
+}
+
+.title-gray {
+  color: gray;
+}
